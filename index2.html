@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task7-Part2</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <!-- section1 -->
+    <h2 style="width: 30%;padding-bottom: 10px;border-bottom: 2px dashed black;">Task1</h2>
+    <section id="section1" style="width: 90%;  margin: auto; border: 1px solid gray; background-color:red;">
+        <div class="section1-1 "
+            style="display: flex; justify-content:space-evenly; flex-wrap: wrap; align-items: center;">
+            <div class="text" style="width: 50%;">
+                <h3 style="font-weight: bold; font-size:40px; color: aliceblue;">iphone 13 pro max</h3>
+                <p style="font-size:20px;  color: aliceblue;">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Excepturi, distinctio. Veritatis quos earum aspernatur laboriosam ipsam expedita, nesciunt possimus
+                    accusantium maiores, deserunt rem numquam, excepturi nobis eos enim aliquam architecto?</p>
+            </div>
+            <div class="img" style="padding-top: 20px;">
+                <img id="img" src="./assets/img/gold.png" alt="gold" style="width: 150px; ">
+
+            </div>
+        </div>
+        <div class="section1-2"
+            style="display: flex; justify-content: center; align-items: center; gap: 10px; margin-bottom: 5px; padding-bottom: 10px;">
+            <img src="./assets/img/gold.png" alt="gold" style="width: 60px; height: 100px; cursor:pointer;"
+                onclick="changeColor('#ddca3c','./assets/img/gold.png')">
+            <img src="./assets/img/blue.png" alt="blue" style="width: 60px; height: 100px; cursor:pointer;"
+                onclick="changeColor('#ADD8E6','./assets/img/blue.png')">
+            <img src="./assets/img/black.png" alt="black" style="width: 60px; height: 100px; cursor:pointer;"
+                onclick="changeColor('black','./assets/img/black.png')">
+            <img src="./assets/img/Silver.png" alt="silver" style="width: 60px; height: 100px; cursor:pointer;"
+                onclick="changeColor('#b7b7b7','./assets/img/Silver.png')">
+            <img src="./assets/img/red.png" alt="red" style="width: 60px; height: 100px; cursor:pointer;"
+                onclick="changeColor('red','./assets/img/red.png')">
+
+        </div>
+    </section>
+
+    <!-- section2 -->
+    <h2 style="width: 30%;padding-bottom: 10px;border-bottom: 2px dashed black;">Task2</h2>
+    <section id="section2"
+        style="width: 90%;  margin: auto; border: 1px solid gray; display: flex; flex-direction: column; padding: 30px; ">
+        <i class="bi bi-brightness-high-fill" id="toggleDark" style="font-size: 30px; cursor: pointer;"></i>
+        <h1 style="font-size: 40px; font-weight: bold; margin:10px auto;">Hello World</h1>
+        <p style="width: 60%; text-align: center; font-size: 18px; margin:10px auto;">Lorem ipsum dolor sit amet
+            consectetur, adipisicing elit. Impedit labore enim earum est! Saepe fugit iste laboriosam neque
+            exercitationem ex quisquam porro sunt. Beatae unde blanditiis cupiditate. Magni, perferendis veritatis.</p>
+    </section>
+
+    <!-- section3 -->
+    <h2 style="width: 30%;padding-bottom: 10px;border-bottom: 2px dashed black;">Task3</h2>
+    <section id="section3" style="width: 90%;  margin: auto; border: 1px solid gray; padding: 25px; ">
+
+        <button class="accordion"
+            style=" display: flex; justify-content: space-between;align-self: center;background-color: #94c24f;color: #000000;cursor: pointer;padding: 18px;margin-bottom: 15px;width: 100%;height: 50px;text-align: left;border: none;outline: none;transition:0.4s;font-weight:bold;">How
+            many team members can I invite ?
+            <i class="fa fa-sort-down" style="font-size: 15px;"></i>
+
+        </button>
+        <div class="p" style="padding: 0 18px; background-color: white; display: none; overflow: hidden;">
+            <p>You can invite as many people as you want....</p>
+        </div>
+
+        <button class="accordion"
+            style=" display: flex; justify-content: space-between;align-self: center;background-color: #94c24f;color: #000000;cursor: pointer;padding: 18px;margin-bottom: 15px;width: 100%;height: 50px;text-align: left;border: none;outline: none;transition: 0.4s;font-weight:bold;">What
+            is the maximum file upload size ?
+            <i class="fa fa-sort-down" style="font-size: 15px;"></i>
+        </button>
+        <div class="p" style="padding: 0 18px; background-color: white; display: none; overflow: hidden;">
+            <p>The maximum file size for files to be uploaded is 10 MB.</p>
+        </div>
+
+
+        <button class="accordion"
+            style=" display: flex; justify-content: space-between;align-self: center;background-color: #94c24f;color: #000000;cursor: pointer;padding: 18px;margin-bottom: 15px;width: 100%;height: 50px;text-align: left;border: none;outline: none;transition: 0.4s;font-weight:bold;">How
+            do I reset my password ?
+            <i class="fa fa-sort-down" style="font-size: 15px;"></i>
+        </button>
+        <div class="p" style="padding: 0 18px; background-color: white; display: none; overflow: hidden;">
+            <p>From the navigation menu , tap Settings and privacy,Tap Your account,Tap Change your password,Enter your
+                current password,Enter your New password,Enter your new password again to Confirm password.</p>
+        </div>
+    </section>
+
+
+    <!-- section4 -->
+    <h2 style="width: 30%;padding-bottom: 10px;border-bottom: 2px dashed black;">Task4</h2>
+    <section id="section4"
+        style="width: 75%; margin: auto;  border: 1px solid gray; display: flex; justify-content: center; align-items: center; padding: 40px; flex-direction: column;background-color: rgb(17, 36, 72);">
+        <h3 style="font-size: 25px; color: white;">How was your Experience ?</h3>
+        <ol style="display: flex; list-style: none; gap: 10px;">
+            <li  style="cursor: pointer;"><i class="fa fa-star star1" style="font-size: 25px;" onclick="stars1();"></i></li>
+            <li  style="cursor: pointer;"><i class="fa fa-star star2" style="font-size: 25px;" onclick="stars2();"></i></li>
+            <li  style="cursor: pointer;"><i class="fa fa-star star3" style="font-size: 25px;" onclick="stars3();"></i></li>
+            <li  style="cursor: pointer;"><i class="fa fa-star star4" style="font-size: 25px;" onclick="stars4();"></i></li>
+            <li  style="cursor: pointer;"><i class="fa fa-star star5" style="font-size: 25px; " onclick="stars5();"></i></li>
+        </ol>
+
+        <div class="msg">
+            <p class="p1" style="display: none;">it is Bad</p>
+            <p class="p2" style="display: none;"> it is not Good</p>
+            <p class="p3" style="display: none;">it is not Bad</p>
+            <p class="p4" style="display: none;">it is Good</p>
+            <p class="p5" style="display: none;">it is Perfect</p>
+        </div>
+
+    </section>
+
+
+    <script>
+        // task1
+        changeColor = (color,imgs) => {
+            let section1 = document.getElementById('section1');
+            let img = document.getElementById('img');
+
+            section1.style.backgroundColor = color;
+            section1.style.transition = '1s';
+            img.src=imgs;
+          
+        }
+        // ==============================================
+        // task2
+        const toggle = document.getElementById('toggleDark');
+        const section2 = document.getElementById('section2');
+        toggle.addEventListener('click', function () {
+            toggle.classList.toggle('bi-moon');
+            if (toggle.classList.toggle('bi-brightness-high-fill')) {
+                section2.style.background = 'white';
+                section2.style.color = 'black';
+                body.style.transition = '2s';
+            } else {
+                section2.style.background = 'black';
+                section2.style.color = 'white';
+                section2.style.transition = '2s';
+            }
+        });
+        // ============================================
+
+
+        // task3
+        let acc = document.getElementsByClassName("accordion");
+        let i;
+
+        for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function () {
+
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+                if (panel.style.display === "block") {
+                    panel.style.display = "none";
+                    
+                } else {
+                    panel.style.display = "block";
+                }
+                
+            });
+        }
+       
+        //  ====================================================
+
+        //task4
+        const star1 = document.querySelector(".star1");
+        const star2 = document.querySelector(".star2");
+        const star3 = document.querySelector(".star3");
+        const star4 = document.querySelector(".star4");
+        const star5 = document.querySelector(".star5");
+        const p1 = document.querySelector(".p1");
+        const p2 = document.querySelector(".p2");
+        const p3 = document.querySelector(".p3");
+        const p4 = document.querySelector(".p4");
+        const p5 = document.querySelector(".p5");
+        function stars1() {
+            star1.style.color = "#ffe400";
+            star2.style.color = "#b6b6b6";
+            star3.style.color = "#b6b6b6";
+            star4.style.color = "#b6b6b6";
+            star5.style.color = "#b6b6b6";
+            p1.style.display = "block";
+            p1.style.color = "white";
+            p1.style.marginLeft = "40px";
+            p2.style.display = "none";
+            p3.style.display = "none";
+            p4.style.display = "none";
+            p5.style.display = "none";
+
+        }
+        function stars2() {
+            star1.style.color = "#ffe400";
+            star2.style.color = "#ffe400";
+            star3.style.color = "#b6b6b6";
+            star4.style.color = "#b6b6b6";
+            star5.style.color = "#b6b6b6";
+            p2.style.display = "block";
+            p2.style.color = "white";
+            p2.style.marginLeft = "40px";
+            p1.style.display = "none";
+            p3.style.display = "none";
+            p4.style.display = "none";
+            p5.style.display = "none";
+
+
+        }
+        function stars3() {
+            star1.style.color = "#ffe400";
+            star2.style.color = "#ffe400";
+            star3.style.color = "#ffe400";
+            star4.style.color = "#b6b6b6";
+            star5.style.color = "#b6b6b6";
+            p3.style.display = "block";
+            p3.style.color = "white";
+            p3.style.marginLeft = "40px";
+            p1.style.display = "none";
+            p2.style.display = "none";
+            p4.style.display = "none";
+            p5.style.display = "none";
+
+
+        }
+        function stars4() {
+            star1.style.color = "#ffe400";
+            star2.style.color = "#ffe400";
+            star3.style.color = "#ffe400";
+            star4.style.color = "#ffe400";
+            star5.style.color = "#b6b6b6";
+            p4.style.display = "block";
+            p4.style.color = "white";
+            p4.style.marginLeft = "40px";
+            p1.style.display = "none";
+            p2.style.display = "none";
+            p3.style.display = "none";
+            p5.style.display = "none";
+
+
+        }
+        function stars5() {
+            star1.style.color = "#ffe400";
+            star2.style.color = "#ffe400";
+            star3.style.color = "#ffe400";
+            star4.style.color = "#ffe400";
+            star5.style.color = "#ffe400";
+            p5.style.display = "block";
+            p5.style.color = "white";
+            p5.style.marginLeft = "40px";
+            p1.style.display = "none";
+            p2.style.display = "none";
+            p3.style.display = "none";
+            p4.style.display = "none";
+
+
+        }
+
+    </script>
+
+   
+</body>
+
+</html>
